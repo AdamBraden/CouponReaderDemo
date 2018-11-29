@@ -77,6 +77,7 @@ namespace CouponReaderDemo.Forms
             var loginService = new LoginService();
 
             var success = await loginService.SignInAsync();
+            //var success = await loginService.WindowsHelloSignInAsync();
 
             if (success)
             {
