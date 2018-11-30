@@ -63,7 +63,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(3, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(267, 266);
+            this.groupBox1.Size = new System.Drawing.Size(237, 266);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Coupon info";
@@ -77,7 +77,7 @@
             this.expirationText.Location = new System.Drawing.Point(100, 163);
             this.expirationText.Name = "expirationText";
             this.expirationText.ReadOnly = true;
-            this.expirationText.Size = new System.Drawing.Size(161, 19);
+            this.expirationText.Size = new System.Drawing.Size(131, 19);
             this.expirationText.TabIndex = 9;
             // 
             // couponText
@@ -89,7 +89,7 @@
             this.couponText.Location = new System.Drawing.Point(100, 131);
             this.couponText.Name = "couponText";
             this.couponText.ReadOnly = true;
-            this.couponText.Size = new System.Drawing.Size(161, 19);
+            this.couponText.Size = new System.Drawing.Size(131, 19);
             this.couponText.TabIndex = 8;
             // 
             // usernameText
@@ -101,7 +101,7 @@
             this.usernameText.Location = new System.Drawing.Point(100, 99);
             this.usernameText.Name = "usernameText";
             this.usernameText.ReadOnly = true;
-            this.usernameText.Size = new System.Drawing.Size(161, 19);
+            this.usernameText.Size = new System.Drawing.Size(131, 19);
             this.usernameText.TabIndex = 7;
             // 
             // userText
@@ -113,7 +113,7 @@
             this.userText.Location = new System.Drawing.Point(100, 67);
             this.userText.Name = "userText";
             this.userText.ReadOnly = true;
-            this.userText.Size = new System.Drawing.Size(161, 19);
+            this.userText.Size = new System.Drawing.Size(131, 19);
             this.userText.TabIndex = 6;
             // 
             // titleText
@@ -125,7 +125,7 @@
             this.titleText.Location = new System.Drawing.Point(100, 35);
             this.titleText.Name = "titleText";
             this.titleText.ReadOnly = true;
-            this.titleText.Size = new System.Drawing.Size(161, 19);
+            this.titleText.Size = new System.Drawing.Size(131, 19);
             this.titleText.TabIndex = 5;
             // 
             // label5
@@ -188,7 +188,7 @@
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.couponImage);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(276, 3);
+            this.groupBox2.Location = new System.Drawing.Point(246, 3);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(476, 266);
             this.groupBox2.TabIndex = 3;
@@ -212,7 +212,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Name = "CouponDetailsControl";
-            this.Size = new System.Drawing.Size(763, 298);
+            this.Size = new System.Drawing.Size(733, 410);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.Toolkit.Forms.UI.Controls;
+using Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT;
 
 namespace CouponReaderDemo.Forms
 {

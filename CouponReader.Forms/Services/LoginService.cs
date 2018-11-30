@@ -15,8 +15,8 @@ namespace CouponReaderDemo.Forms
             return true;
         }
 
-        // Add reference to Windows.winmd
-        // Add reference to System.Runtime.WindowsRuntime.dll
+        // Add reference to Windows.winmd, typically c:\program files (x86)\windows kits\10\UnionMetadata\{version}
+        // Add reference to System.Runtime.WindowsRuntime.dll, typically C:\Windows\Microsoft.NET\Framework\v4.0.30319
         public async Task<bool> WindowsHelloSignInAsync()
         {
             // Check the availability of Windows Hello authentication through User Consent Verifier.
